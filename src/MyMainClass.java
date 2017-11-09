@@ -2,7 +2,9 @@ import Chapter3.CollectionsTest;
 import Chapter3.Comparison;
 import Chapter3.Wildcards;
 import Chapter4.Streams;
+import Concurrency.TestConcurrent;
 import DatesStrings.DatesStrings;
+import ExceptionsAssertions.ExceptionsAssertions;
 import Polymorphism.Test;
 
 public class MyMainClass {
@@ -11,6 +13,8 @@ public class MyMainClass {
 //            new CollectionsTest();
 //            new Comparison();
 //            new Streams();
-            new DatesStrings();
+//            new DatesStrings();
+//            new ExceptionsAssertions();
+            new TestConcurrent();
    }
 }
